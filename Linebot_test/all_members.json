@@ -1,0 +1,60 @@
+{
+  "type": "carousel",
+  "contents": [
+    {                                     
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "26:20",
+        "aspectMode": "cover",
+        "url": "https://imgur.com/bLPRFIs.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "所有成員",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "size": "sm",
+                "flex": 0,
+                "wrap": true,
+                "text": "組長：翁浩銘\n組員：\n黃沛承、陳薏安、周思妤、江文彬\n吳綮翊、莊士緯、王俊傑、徐敏家"
+              }
+            ]
+          }
+        ],
+        "margin": "none"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "chi101.searchdog@gmail.com",
+              "uri": "mailto:chi101.searchdog@gmail.com"
+            },
+            "style": "primary",
+            "color": "#3d426e"
+          }
+        ]
+      },
+    "size": "kilo"
+    }
+  ]
+}

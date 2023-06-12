@@ -1,0 +1,172 @@
+{
+  "type": "carousel",
+  "contents": [
+    {                                     
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "2:1",
+        "aspectMode": "cover",
+        "url": "https://imgur.com/aHxqb1s.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "浪愛認養",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "size": "sm",
+                "flex": 0,
+                "wrap": true,
+                "text": "歡迎您將流浪毛孩們的介紹放上來，為牠們找家也歡迎您來這裡看看，誰是您的另一【伴】？"
+              }
+            ]
+          }
+        ],
+        "margin": "none"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "前往浪愛認養",
+              "uri": "https://www.i-adopt.com.tw/adopt-notice"
+            },
+            "style": "primary",
+            "color": "#f2703d"
+          }
+        ]
+      },
+      "size": "kilo"
+    },
+
+    {                                     
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "2:1",
+        "aspectMode": "cover",
+        "url": "https://imgur.com/bd8QZkd.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "PCT好侶",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "size": "sm",
+                "flex": 0,
+                "wrap": true,
+                "text": "PCT好侶與學生社團長期合作，希望能將盡一份心力，減輕學生們的負擔，讓他們能有更多的時間幫助毛孩子們。"
+              }
+            ]
+          }
+        ],
+        "margin": "none"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "前往PCT好侶",
+              "uri": "https://www.perfectcompanion.com.tw/tw/news/charity/67"
+            },
+            "style": "primary",
+            "color": "#151673"
+          }
+        ]
+      },
+      "size": "kilo"
+    },
+
+    {                                     
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "2:1",
+        "aspectMode": "cover",
+        "url": "https://imgur.com/9CbPvBl.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "社團法人台灣之心愛護動物協會",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "size": "sm",
+                "flex": 0,
+                "wrap": true,
+                "text": "您也想要帶流浪貓狗去結紮嗎？請來電協會申請，即可完成紮浪浪計畫的申請手續、馬上使用本計畫的補助名額喔！"
+              }
+            ]
+          }
+        ],
+        "margin": "none"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "前往台灣之心愛護動物協會",
+              "uri": "https://hotac.org.tw/content-tnr_projectJoin"
+            },
+            "style": "primary",
+            "color": "#61944a"
+          }
+        ]
+      },
+      "size": "kilo"
+    }
+  ]
+}
