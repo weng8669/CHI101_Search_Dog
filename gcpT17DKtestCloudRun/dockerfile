@@ -1,0 +1,40 @@
+FROM ubuntu:20.04
+WORKDIR /app
+COPY . ./
+ENV TZ=Asia/Taipei
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
+     echo $TZ > /etc/timezone && \
+     apt-get update && \
+     apt-get install -y python3-pip python3-testresources tzdata && \
+     echo "Y"|apt-get install libgl1-mesa-glx &&\
+     echo "Y"|apt-get install libglib2.0-dev &&\
+     dpkg-reconfigure -f noninteractive tzdata && \
+     pip3 install -r requirements.txt
+ CMD uwsgi -w app_preUse2:app --http-socket :$PORT
+
+
+
+
+
+
+
+
+
+
+ 
+# FROM python:3.9
+
+# RUN apt-get update && \
+#     apt-get install -y nginx && \
+#     pip install uwsgi certbot certbot-nginx
+
+# WORKDIR /app
+
+# COPY requirements.txt ./
+# RUN pip install -r requirements.txt
+# x
+# COPY . .
+
+# # EXPOSE 80 443
+
+# # CMD service nginx start && uwsgi --ini uwsgi.ini

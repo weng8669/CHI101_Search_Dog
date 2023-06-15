@@ -1,0 +1,1 @@
+trtexec --onnx=./yolov7.onnx --saveEngine=./yolov7_fp16-t1.engine --fp16 --workspace=1000 --verbose
